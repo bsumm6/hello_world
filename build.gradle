@@ -105,10 +105,10 @@ pmd {
 
 sonarRunner {
     sonarProperties {
-        property "sonar.host.url", "http://<YOUR_SONAR_PRIVATE_IP>:9000"
+        property "sonar.host.url", "http://172.31.2.18:9000"
         property "sonar.username", "<YOUR_ADMIN_USERNAME> should be admin by default"
         property "sonar.password", "<YOUR_ADMIN_PASSWORD> should be admin by default"
-        property "sonar.jdbc.url", "jdbc:mysql://<YOUR_PRIVATE_IP>:3306/sonar?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance"
+        property "sonar.jdbc.url", "jdbc:mysql://172.31.2.18:3306/sonar?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance"
         property "sonar.jdbc.driverClassName", "com.mysql.jdbc.Driver"
         property "sonar.jdbc.username", "sonarqube"
         property "sonar.jdbc.password", "coveros1"
