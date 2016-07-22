@@ -1,6 +1,7 @@
 package com.coveros.hello_world;
 
 import java.util.Random;
+// Ben Summers changed this line
 
 public class EvenNumberGenerator {
 	public static int generateRandomEven(){
